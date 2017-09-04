@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/toolbar_refresh"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:title="刷新"
+        app:showAsAction="withText"/>
+    <item
+        android:id="@+id/toolbar_share"
+        android:icon="@drawable/ic_timeline_black_24dp"
+        android:title="分享"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/toolbar_copy"
+        android:icon="@drawable/ic_content_copy_black_24dp"
+        android:title="复制链接"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/toolbar_openinbroswer"
+        android:icon="@drawable/ic_public_black_24dp"
+        android:title="在浏览器打开"
+        app:showAsAction="withText"/>
+
+</menu>

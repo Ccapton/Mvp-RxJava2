@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/main_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.capton.materialdesign.WebActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+      <android.support.v7.widget.Toolbar
+          android:id="@+id/toolbar"
+          app:navigationIcon="@drawable/ic_arrow_back_white_24dp"
+          app:titleTextColor="@android:color/white"
+          app:popupTheme="@style/AppTheme.PopupOverlay"
+          app:theme="@style/AppTheme.toolbar"
+          android:elevation="3dp"
+          android:fitsSystemWindows="true"
+          android:background="@color/colorPrimary"
+          android:layout_width="match_parent"
+          android:layout_height="?attr/actionBarSize">
+      </android.support.v7.widget.Toolbar>
+    <com.capton.colorfulprogressbar.ColorfulProgressbar
+        android:id="@+id/colorfulProgressbar"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:style="@string/style_normal"
+        app:max="100"
+        app:animation="false"
+        app:progressColor1="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        />
+    <LinearLayout
+        android:id="@+id/webViewParent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </LinearLayout>
+    </LinearLayout>

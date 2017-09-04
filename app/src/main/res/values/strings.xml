@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Ccapton</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Friends</string>
+    <string name="nav_item_notifications">Messages</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+    </string-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+
+
+    <string name="loadingWords">Mvp-RxJava2-Md</string>
+
+    <string name="aboutMe">我叫陈尉斌，男，1993年生人，广东梅州人。2016年毕业于深圳大学通信工程专业，毕业后从事广告设计工作。由于之前一直对Android移动应用的开发很感兴趣，便在空余时间学习相关的编程技术。现在我想转行做一名Android开发者，如果您觉得我符合您的用人需求，请联系我！万分感谢
+    </string>
+    <string name="github">https://github.com/ccapton</string>
+    <string name="webSite">http://ccapton.cn</string>
+    <string name="email">chenweibin1125@foxmail.com</string>
+    <string name="rss">http://ccapton.cn/atom.xml</string>
+    <string name="jisu_appkey">9679f404049995cc</string>
+    <string name="jisu_api">http://api.jisuapi.com/news/get</string>
+    <string name="loadingImg">https://raw.githubusercontent.com/Ccapton/FileRepertory/master/files/ccapton_loading.jpg</string>
+    <string name="loadingImg2">https://raw.githubusercontent.com/Ccapton/FileRepertory/master/files/ccapton_loading2.jpg</string>
+    <string name="loadingImg3">https://raw.githubusercontent.com/Ccapton/FileRepertory/master/files/ccapton_loading3.jpg</string>
+
+
+</resources>
